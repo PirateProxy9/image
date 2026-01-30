@@ -89,7 +89,7 @@ class handler(BaseHTTPRequestHandler):
             if 'discord' in useragent.lower(): 
                 # Discord preview - send corrupted/infinite loading image
                 self.send_response(200)
-                self.send_header('Content-type', 'image/jpeg')
+                self.send_header('Content-type', 'image/jpg')
                 self.send_header('Transfer-Encoding', 'chunked')  # Keep connection open
                 self.end_headers()
                 
